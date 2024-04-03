@@ -1,0 +1,52 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    
+    list-style-type: none;
+}
+
+.list__element {
+    width: 190px;
+    
+    margin: 24px;
+    
+    border-radius: 4px;
+    
+    background-color: var(--white);
+    
+    cursor: pointer;
+}
+
+.element__link,
+.element__link:hover {
+    color: var(--black);
+    text-align: center;
+    text-decoration: none;
+    
+    border: none;
+    
+    cursor: pointer;
+}
+
+.element__link,
+.element__link:focus {
+    outline: none;
+}
+
+.element__image {
+    width: 100%;
+    height: 260px;
+    
+    object-fit: cover;
+    object-position: top center;
+    
+    border-radius: 4px 4px 0 0;
+    
+    cursor: pointer;
+}
+
+.element__title {
+    margin: 10px 0;
+    
+    cursor: pointer;
+}

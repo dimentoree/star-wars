@@ -1,9 +1,9 @@
-import './App.css';
+import PeopleContainer from "@containers/PeopleContainer";
 
 const App = () => {
-  return (
-    <h1>Star Wars</h1>
-  );
+    return (
+        <PeopleContainer />
+    );
 }
 
 export default App;

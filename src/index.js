@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './styles/reseter.css';
-import './styles/global.css';
-import App from './containers/App/App';
+import '@styles/reseter.css';
+import '@styles/global.css';
+import App from "@containers/App";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 

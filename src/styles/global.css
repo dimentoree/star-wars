@@ -1,0 +1,13 @@
+@import "./fonts.css";
+
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --yellow: #ffff00;
+    --blackish-green: #10100e;
+}
+
+body {
+    background-color: var(--blackish-green);
+    font-family: "Oswald", sans-serif;
+}

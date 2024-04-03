@@ -1,0 +1,9 @@
+.text {
+    font: normal normal 400 26px/1.7 "Oswald", sans-serif;
+    color: var(--yellow);
+    text-align: center;
+    text-shadow: 0 0 2px var(--white);
+    
+    -webkit-text-stroke-color: var(--yellow);
+    -webkit-text-stroke-width: .5px;
+}
